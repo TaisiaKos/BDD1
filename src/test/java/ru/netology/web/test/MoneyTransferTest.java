@@ -1,4 +1,4 @@
-package ru.netology.web.data;
+package ru.netology.web.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ import static ru.netology.web.data.DataHelper.*;
 
 public class MoneyTransferTest {
     DashboardPage dashboardPage;
-    DataHelper.CardInfo firstCardInfo;
+    CardInfo firstCardInfo;
     CardInfo secondCardInfo;
     int firstCardBalance;
     int secondCardBalance;
